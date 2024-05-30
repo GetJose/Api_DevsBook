@@ -217,9 +217,5 @@ class UserController extends Controller
         }
         return $array;
     }
-    public function photo($id){
-        $array = ['error' => ''];
 
-        return $array;
-    }
 }

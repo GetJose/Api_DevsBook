@@ -209,7 +209,7 @@ class FeedController extends Controller
         $array['posts'] = $posts;
         $array['currentPage'] = $page;
         $array['pageCount'] = $pageCount;
-
+ 
         return $array;
     }
 }
